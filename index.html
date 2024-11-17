@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type= "image/x-icon" href="imgs/favicoin.png">
+    <title>Portifolio Guilherme</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Guilherme Leite</span></a>
+        <li class="nav-links">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </li>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <button class="visit-btn" onclick="window.open('https://github.com/guilhermemariano20', '_blank')">Visit Github</button>
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="/imgs/img.jpg" alt="">
+            <div class="info-box">
+
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>GUILHERME</h1>
+                    <span>FullStack Developer</span>
+                </div>
+
+                <div class="btn-group">
+                    <div class="btn" onclick="window.open('https://bit.ly/4fjPT3o', '_blank')">Download CV</div>
+                    <div class="btn" onclick="window.open('https://bit.ly/4epKyXg>', '_blank')">Contact</div>
+                </div>
+                
+
+                <div class="socials">
+                    <i class="fa-brands fa-github" onclick="window.open('https://github.com/guilhermemariano20', '_blank')"></i>
+                    <i class="fa-brands fa-linkedin" onclick="window.open('https://www.linkedin.com/in/guilherme-mariano20', '_blank')"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience-info">
+
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Languages</span>
+                    <h3>PHP | JavaScript | NodeJS | HTML5 | CSS3.</h3>
+                    <p>Studing In projects personal</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-file-code"></i>
+                    <span>DataBase</span>
+                    <h3>MySQL | MongoDB.</h3>
+                    <p>Studies in Java and Database 3 months</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-laptop"></i>
+                    <span>versioning</span>
+                    <h3>Git / GitHub</h3>
+                    <p>1 Year</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card"> <!-- adicionar img do project!-->
+                <img src="/imgs/img-projects.jpg" alt=""> 
+                <h3>Project A</h3> 
+                <p>Project in development, contact admin.</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repository</div>
+                </div>
+            </div>
+
+            <div class="project-card"> <!-- adicionar img do project!-->
+                <img src="/imgs/img-projects.jpg" alt=""> 
+                <h3>Project B</h3> 
+                <p>Project in development, contact admin.</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repository</div>
+                </div>
+            </div>
+
+            <div class="project-card"> <!-- adicionar img do project!-->
+                <img src="/imgs/img-projects.jpg" alt=""> 
+                <h3>Project C</h3> 
+                <p>Project in development, contact admin.</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repository</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="input-box">
+
+            <h2 class="section-title">Contact Me</h2>
+
+            <form action="https://formspree.io/f/xvgorokj" method="POST">
+                <div class="input">
+                    <textarea name="mensagem" placeholder="Type your message." maxlength="200" required></textarea>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+
+                <button type="submit" class="btn" id="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© All Rights Reserved | Guilherme Leite</p>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
